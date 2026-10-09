@@ -105,7 +105,7 @@ export default function App() {
       {data ? (
         <>
           <main>
-            <Hero overview={data.overview} onActive={onChapter} onFiles={load} status={own} />
+            <Hero overview={data.overview} onActive={onChapter} status={own} />
             {data.chapters.map((c, i) => (
               <Chapter key={c.id} chapter={c} index={i} onActive={onChapter} />
             ))}

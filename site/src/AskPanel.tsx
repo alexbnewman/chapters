@@ -19,7 +19,7 @@ export function AskPanel({ questions, answer, onAnswer, onClose, pinned, onPin }
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [focused, setFocused] = useState(false)
-  // Unknown until the API replies, so a working setup never flashes the "off" state.
+  // Without a live API there is nowhere to type, only the questions answered at build time.
   const [live, setLive] = useState<boolean>()
   const { still } = useTheme()
 
@@ -88,15 +88,15 @@ export function AskPanel({ questions, answer, onAnswer, onClose, pinned, onPin }
           ))}
         </div>
       )}
-      <form onSubmit={submit} className="ask-form">
-        <input value={question} onChange={(e) => setQuestion(e.target.value)} aria-label="Ask about your listening" disabled={live === false}
-          placeholder={live === false ? 'Live questions are off here. Pick one above.' : 'Ask about your listening… what was I into last winter?'} />
-        {live !== false && (
+      {live && (
+        <form onSubmit={submit} className="ask-form">
+          <input value={question} onChange={(e) => setQuestion(e.target.value)} aria-label="Ask about your listening"
+            placeholder="Ask about your listening… what was I into last winter?" />
           <button type="submit" aria-label="Ask" disabled={loading}>
             {loading ? <span className="dots"><i /><i /><i /></span> : '→'}
           </button>
-        )}
-      </form>
+        </form>
+      )}
       {error && <p className="ask-error mono">{error}</p>}
     </motion.div>
   )

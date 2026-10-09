@@ -13,7 +13,6 @@
 }
 .chip:hover { border-color: var(--c3); }
 /* With the round button gone the row loses its height. */
-.ask-form input:disabled { height: 40px; }
 
 .pin {
   position: absolute;
@@ -30,5 +29,4 @@
 
 @media (max-width: 760px) {
   /* At 16px the "off" sentence is a few pixels too long for a phone and loses its last word. */
-  .ask-form input:disabled { font-size: 14px; }
 }

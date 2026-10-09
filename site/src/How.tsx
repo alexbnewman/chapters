@@ -4,9 +4,9 @@ import { useFade } from './theme'
 import './How.css'
 
 const STEPS = [
-  ['Export', 'You ask Spotify for your extended streaming history and drop the zip on this page, or the files in a folder.'],
+  ['Export', 'You ask Spotify for your extended streaming history and drop the files in a folder.'],
   ['Find the chapters', 'DuckDB loads every play, and the months get grouped into chapters.'],
-  ['Name them', "Claude reads each chapter's stats, gives it a title, mood and colours, and answers your questions by looking things up through MCP tools. A zip dropped on this page gets plain titles instead, since nothing here leaves your browser."],
+  ['Name them', "Claude reads each chapter's stats, gives it a title, mood and colours, and answers your questions by looking things up through MCP tools."],
 ]
 
 export function How({ tint, onActive }: { tint: number; onActive: (i: number) => void }) {

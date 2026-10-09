@@ -3,9 +3,9 @@ import { day, type Overview } from './data'
 import { Numeral } from './Numeral'
 import { useActive } from './theme'
 
-type Props = { overview: Overview; onActive: (i: number) => void; onFiles: (files: File[]) => void; status: string }
+type Props = { overview: Overview; onActive: (i: number) => void; status: string }
 
-export function Hero({ overview, onActive, onFiles, status }: Props) {
+export function Hero({ overview, onActive, status }: Props) {
   const ref = useRef<HTMLElement>(null)
   // Without this, scrolling back to the top leaves the page in the last chapter's colours.
   useActive(ref, 0, onActive)
@@ -23,14 +23,7 @@ export function Hero({ overview, onActive, onFiles, status }: Props) {
         </div>
         <h1 className="display hero-title">Chapters</h1>
         <p className="mono hero-scroll">Scroll to read it ↓</p>
-        <p className="mono hero-own">
-          <label className="own">
-            {status === 'reading' ? 'Reading your export…' : 'Load your own export'}
-            <input type="file" multiple accept=".zip,.json" hidden disabled={status === 'reading'}
-              onChange={(e) => e.target.files?.length && onFiles([...e.target.files])} />
-          </label>
-          <span className="dim">{status && status !== 'reading' ? status : 'Drop the zip Spotify emails you anywhere on this page. It never leaves your browser.'}</span>
-        </p>
+        {status && <p className="mono hero-own">{status === 'reading' ? 'Reading your export…' : status}</p>}
       </div>
     </header>
   )
