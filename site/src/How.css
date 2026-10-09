@@ -1,0 +1,9 @@
+.how { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; }
+.how p { margin: 0; font-size: 16px; }
+.how h3 { font: 500 18px/1.4 var(--body); margin: 16px 0 8px; }
+.how .how-num { font-size: 4rem; color: var(--title); }
+.how-rule { margin: 48px 0 0; font-size: 16px; }
+
+@media (max-width: 760px) {
+  .how { grid-template-columns: 1fr; gap: 32px; }
+}

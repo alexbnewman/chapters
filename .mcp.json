@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "chapters": {
+      "command": "uv",
+      "args": ["run", "chapters"]
+    }
+  }
+}

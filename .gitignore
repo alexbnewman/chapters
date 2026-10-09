@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Personal listening history and the database built from it
+data/
+
+# Frontend build outputs (site/public/chapters.json stays: it is the demo data)
+site/node_modules/
+site/dist/
+
+# Session notes and local Claude settings
+.remember/
+.claude/
+.pytest_cache/

@@ -1,0 +1,20 @@
+.records { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.records p { margin: 0; font-size: 16px; }
+.records .mono { font-size: 12px; }
+.record-num { font-size: clamp(3.2rem, 6vw, 5rem); margin: 20px 0 12px; }
+.records .card > .mono:last-child { margin-top: 12px; }
+
+.week { margin-top: 24px; }
+.week p { margin: 0; }
+.week svg { width: 100%; display: block; margin: 20px 0 16px; }
+.week rect { fill: var(--c3); }
+.week text { font: 400 4px var(--mono); letter-spacing: 0.08em; fill: var(--ink-2); }
+.week .week-hot { stroke: #f2eee6; stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.week-caption { font-size: 16px; }
+
+@media (max-width: 760px) {
+  .records { grid-template-columns: 1fr; }
+  .week { overflow-x: auto; }
+  .week svg { min-width: 560px; }
+  .week text { font-size: 6px; }
+}

@@ -1,0 +1,30 @@
+.arcs { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 48px; }
+.arcs h3 { font: italic 300 2rem/1.1 var(--display); margin: 0 0 8px; }
+
+.arc {
+  display: grid;
+  grid-template-columns: 1fr 168px;
+  gap: 24px;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.arc p { margin: 0; }
+.arc .dim { font-size: 16px; }
+.arc .mono { margin-top: 8px; }
+.arc-name { font: 500 16px/1.4 var(--body); }
+
+/* The end dot's glow is wider than the 48px box. */
+.spark { width: 100%; display: block; overflow: visible; }
+.spark polyline, .spark line { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.spark-faint { stop-color: rgba(255, 255, 255, 0.25); }
+.spark-gone { stop-color: rgba(255, 255, 255, 0.15); }
+.spark-full { stop-color: var(--c3); }
+.spark-dot { fill: var(--c3); }
+.spark-glow { fill: var(--c3); opacity: 0.3; }
+.spark-ring { fill: none; stroke: rgba(255, 255, 255, 0.5); stroke-width: 1.5; }
+
+@media (max-width: 760px) {
+  .arcs { grid-auto-flow: row; }
+  .arc { grid-template-columns: 1fr 120px; gap: 16px; }
+}

@@ -1,0 +1,8 @@
+.loading { min-height: 100svh; display: grid; place-content: center; justify-items: center; gap: 24px; padding: 16px; text-align: center; }
+.loading p { margin: 0; }
+.loading-title { font-size: clamp(4rem, 14vw, 11rem); opacity: 0.55; animation: loading-pulse 1.6s ease-in-out infinite alternate; }
+/* A command and a file name read wrong in capitals. */
+.loading-error { text-transform: none; letter-spacing: 0; }
+.loading-error code { font: inherit; color: var(--ink); }
+.loading.still .loading-title { animation: none; }
+@keyframes loading-pulse { from { opacity: 0.4; } to { opacity: 0.7; } }

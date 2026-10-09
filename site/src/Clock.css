@@ -1,0 +1,27 @@
+.clock { width: 320px; max-width: 100%; display: block; }
+.clock-track { fill: none; stroke: rgba(255, 255, 255, 0.12); stroke-width: 1; }
+.clock-night { fill: none; stroke: rgba(255, 255, 255, 0.45); stroke-width: 2; stroke-linecap: round; }
+.clock-bar { stroke: var(--c3); stroke-width: 11; stroke-linecap: round; }
+.clock-label {
+  font: 400 13px var(--mono);
+  letter-spacing: 0.08em;
+  fill: var(--ink-2);
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+.clock-word { font-size: 11px; }
+.clock-peak { font: 300 44px var(--display); fill: var(--ink); text-anchor: middle; }
+
+/* One lap in 1.2s, then gone: the bars are timed to appear as it passes. */
+.clock-hand {
+  stroke: #fff;
+  stroke-width: 1;
+  transform-origin: 180px 180px;
+  animation: clock-sweep 1.2s linear, clock-out 300ms 1.2s forwards;
+}
+@keyframes clock-sweep { to { transform: rotate(360deg); } }
+@keyframes clock-out { to { opacity: 0; } }
+
+@media (max-width: 760px) {
+  .clock { width: 280px; margin: 0 auto; }
+}

@@ -1,0 +1,28 @@
+[project]
+name = "chapters"
+version = "0.1.0"
+description = "Your Spotify listening history, split into named chapters you can scroll through and ask questions about."
+readme = "README.md"
+authors = [
+    { name = "Alex Newman", email = "alex02new@outlook.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=1.8.0",
+    "duckdb>=1.5.5",
+    "fastapi>=0.141.1",
+    "mcp[cli]>=2.2.0",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+chapters = "chapters:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

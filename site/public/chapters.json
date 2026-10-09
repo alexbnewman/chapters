@@ -1,0 +1,2228 @@
+{
+ "overview": {
+  "first_play": "2019-03-01",
+  "last_play": "2024-08-31",
+  "plays": 46443,
+  "hours": 2302.8,
+  "artists": 48,
+  "tz": "America/New_York",
+  "tracks": 245,
+  "days_listened": 1666
+ },
+ "chapters": [
+  {
+   "id": "2019-03",
+   "start": "2019-03",
+   "end": "2019-11",
+   "hours": 316.8,
+   "skip_pct": 20,
+   "night_pct": 5,
+   "top_artists": [
+    {
+     "name": "Tame Impala",
+     "minutes": 2911
+    },
+    {
+     "name": "Arctic Monkeys",
+     "minutes": 2855
+    },
+    {
+     "name": "The Strokes",
+     "minutes": 2340
+    },
+    {
+     "name": "Kendrick Lamar",
+     "minutes": 1757
+    },
+    {
+     "name": "Radiohead",
+     "minutes": 1522
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Let It Happen",
+     "artist": "Tame Impala",
+     "minutes": 654
+    },
+    {
+     "name": "Cornerstone",
+     "artist": "Arctic Monkeys",
+     "minutes": 647
+    },
+    {
+     "name": "Borderline",
+     "artist": "Tame Impala",
+     "minutes": 621
+    },
+    {
+     "name": "R U Mine?",
+     "artist": "Arctic Monkeys",
+     "minutes": 614
+    },
+    {
+     "name": "505",
+     "artist": "Arctic Monkeys",
+     "minutes": 602
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2019-03",
+     "hours": 36.1
+    },
+    {
+     "month": "2019-04",
+     "hours": 31.6
+    },
+    {
+     "month": "2019-05",
+     "hours": 30.1
+    },
+    {
+     "month": "2019-06",
+     "hours": 34.8
+    },
+    {
+     "month": "2019-07",
+     "hours": 44.3
+    },
+    {
+     "month": "2019-08",
+     "hours": 28.5
+    },
+    {
+     "month": "2019-09",
+     "hours": 38.1
+    },
+    {
+     "month": "2019-10",
+     "hours": 38.3
+    },
+    {
+     "month": "2019-11",
+     "hours": 34.9
+    }
+   ],
+   "new_artists": 13,
+   "new_minutes_pct": 100,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    807,
+    1011,
+    872,
+    360,
+    1344,
+    1483,
+    357,
+    785,
+    335,
+    1493,
+    2035,
+    1347,
+    1444,
+    2095,
+    2243,
+    995
+   ],
+   "obsession": {
+    "track": "The Less I Know the Better",
+    "artist": "Tame Impala",
+    "date": "2019-04-11",
+    "plays": 11
+   },
+   "title": "Guitars, Then Kendrick",
+   "blurb": "Nine months and 317 hours of Tame Impala, Arctic Monkeys and The Strokes, with Kendrick Lamar crashing the party by autumn. Let It Happen alone got 11 hours.",
+   "mood": "Scrappy",
+   "palette": [
+    "#e63946",
+    "#f1faee",
+    "#457b9d",
+    "#ffb703"
+   ]
+  },
+  {
+   "id": "2019-12",
+   "start": "2019-12",
+   "end": "2020-05",
+   "hours": 193.5,
+   "skip_pct": 19,
+   "night_pct": 88,
+   "top_artists": [
+    {
+     "name": "Aphex Twin",
+     "minutes": 2294
+    },
+    {
+     "name": "Burial",
+     "minutes": 2248
+    },
+    {
+     "name": "Boards of Canada",
+     "minutes": 2207
+    },
+    {
+     "name": "Frank Ocean",
+     "minutes": 1742
+    },
+    {
+     "name": "Four Tet",
+     "minutes": 1117
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Ghost Hardware",
+     "artist": "Burial",
+     "minutes": 517
+    },
+    {
+     "name": "Archangel",
+     "artist": "Burial",
+     "minutes": 499
+    },
+    {
+     "name": "Xtal",
+     "artist": "Aphex Twin",
+     "minutes": 480
+    },
+    {
+     "name": "#3",
+     "artist": "Aphex Twin",
+     "minutes": 477
+    },
+    {
+     "name": "Windowlicker",
+     "artist": "Aphex Twin",
+     "minutes": 472
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2019-12",
+     "hours": 33.0
+    },
+    {
+     "month": "2020-01",
+     "hours": 27.7
+    },
+    {
+     "month": "2020-02",
+     "hours": 29.3
+    },
+    {
+     "month": "2020-03",
+     "hours": 30.3
+    },
+    {
+     "month": "2020-04",
+     "hours": 31.1
+    },
+    {
+     "month": "2020-05",
+     "hours": 42.2
+    }
+   ],
+   "new_artists": 5,
+   "new_minutes_pct": 73,
+   "clock": [
+    2108,
+    2199,
+    1705,
+    1615,
+    492,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1008,
+    466,
+    2010
+   ],
+   "obsession": {
+    "track": "Avril 14th",
+    "artist": "Aphex Twin",
+    "date": "2020-02-25",
+    "plays": 11
+   },
+   "title": "The 1 A.M. Tapes",
+   "blurb": "Six months where 88% of plays fell between 11pm and 4am and 1am was the busiest hour. Burial, Aphex Twin and Boards of Canada: 194 hours in the dark.",
+   "mood": "Nocturnal",
+   "palette": [
+    "#03045e",
+    "#0077b6",
+    "#90e0ef",
+    "#caf0f8"
+   ]
+  },
+  {
+   "id": "2020-06",
+   "start": "2020-06",
+   "end": "2020-08",
+   "hours": 103.3,
+   "skip_pct": 19,
+   "night_pct": 0,
+   "top_artists": [
+    {
+     "name": "Fleet Foxes",
+     "minutes": 1145
+    },
+    {
+     "name": "Bon Iver",
+     "minutes": 1093
+    },
+    {
+     "name": "Phoebe Bridgers",
+     "minutes": 1084
+    },
+    {
+     "name": "Sufjan Stevens",
+     "minutes": 841
+    },
+    {
+     "name": "Big Thief",
+     "minutes": 543
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Mykonos",
+     "artist": "Fleet Foxes",
+     "minutes": 254
+    },
+    {
+     "name": "White Winter Hymnal",
+     "artist": "Fleet Foxes",
+     "minutes": 241
+    },
+    {
+     "name": "Kyoto",
+     "artist": "Phoebe Bridgers",
+     "minutes": 239
+    },
+    {
+     "name": "Blue Ridge Mountains",
+     "artist": "Fleet Foxes",
+     "minutes": 235
+    },
+    {
+     "name": "Skinny Love",
+     "artist": "Bon Iver",
+     "minutes": 233
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2020-06",
+     "hours": 32.2
+    },
+    {
+     "month": "2020-07",
+     "hours": 27.8
+    },
+    {
+     "month": "2020-08",
+     "hours": 43.3
+    }
+   ],
+   "new_artists": 6,
+   "new_minutes_pct": 79,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    527,
+    639,
+    649,
+    256,
+    462,
+    531,
+    119,
+    297,
+    287,
+    326,
+    561,
+    144,
+    444,
+    564,
+    394,
+    0
+   ],
+   "obsession": {
+    "track": "Chicago",
+    "artist": "Sufjan Stevens",
+    "date": "2020-06-24",
+    "plays": 10
+   },
+   "title": "Folk in the Morning",
+   "blurb": "103 summer hours of Fleet Foxes, Bon Iver and Phoebe Bridgers, not one play after 11pm, and 10am the peak hour. Mykonos led.",
+   "mood": "Gentle",
+   "palette": [
+    "#606c38",
+    "#dda15e",
+    "#fefae0",
+    "#bc6c25"
+   ]
+  },
+  {
+   "id": "2020-09",
+   "start": "2020-09",
+   "end": "2021-04",
+   "hours": 272.3,
+   "skip_pct": 18,
+   "night_pct": 8,
+   "top_artists": [
+    {
+     "name": "Nujabes",
+     "minutes": 3404
+    },
+    {
+     "name": "MF DOOM",
+     "minutes": 3014
+    },
+    {
+     "name": "A Tribe Called Quest",
+     "minutes": 2835
+    },
+    {
+     "name": "Miles Davis",
+     "minutes": 2160
+    },
+    {
+     "name": "Phoebe Bridgers",
+     "minutes": 1693
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Counting Stars",
+     "artist": "Nujabes",
+     "minutes": 700
+    },
+    {
+     "name": "Award Tour",
+     "artist": "A Tribe Called Quest",
+     "minutes": 692
+    },
+    {
+     "name": "Feather",
+     "artist": "Nujabes",
+     "minutes": 686
+    },
+    {
+     "name": "Aruarian Dance",
+     "artist": "Nujabes",
+     "minutes": 682
+    },
+    {
+     "name": "Reflection Eternal",
+     "artist": "Nujabes",
+     "minutes": 669
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2020-09",
+     "hours": 29.8
+    },
+    {
+     "month": "2020-10",
+     "hours": 40.3
+    },
+    {
+     "month": "2020-11",
+     "hours": 34.2
+    },
+    {
+     "month": "2020-12",
+     "hours": 29.9
+    },
+    {
+     "month": "2021-01",
+     "hours": 38.6
+    },
+    {
+     "month": "2021-02",
+     "hours": 37.8
+    },
+    {
+     "month": "2021-03",
+     "hours": 34.4
+    },
+    {
+     "month": "2021-04",
+     "hours": 27.3
+    }
+   ],
+   "new_artists": 5,
+   "new_minutes_pct": 62,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1322,
+    638,
+    26,
+    0,
+    0,
+    1162,
+    2158,
+    2165,
+    2263,
+    2458,
+    2767,
+    1379
+   ],
+   "obsession": {
+    "track": "Feather",
+    "artist": "Nujabes",
+    "date": "2020-10-19",
+    "plays": 11
+   },
+   "title": "Nujabes All Winter",
+   "blurb": "272 hours over eight months: Nujabes, MF DOOM and A Tribe Called Quest, with Miles Davis slipping in. Counting Stars alone got nearly 12 hours.",
+   "mood": "Mellow",
+   "palette": [
+    "#7f5539",
+    "#ddb892",
+    "#e6ccb2",
+    "#b08968"
+   ]
+  },
+  {
+   "id": "2021-05",
+   "start": "2021-05",
+   "end": "2021-09",
+   "hours": 148.2,
+   "skip_pct": 18,
+   "night_pct": 0,
+   "top_artists": [
+    {
+     "name": "Japanese Breakfast",
+     "minutes": 2328
+    },
+    {
+     "name": "Mitski",
+     "minutes": 1622
+    },
+    {
+     "name": "Lorde",
+     "minutes": 1415
+    },
+    {
+     "name": "Big Thief",
+     "minutes": 1075
+    },
+    {
+     "name": "Alvvays",
+     "minutes": 985
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Be Sweet",
+     "artist": "Japanese Breakfast",
+     "minutes": 533
+    },
+    {
+     "name": "Paprika",
+     "artist": "Japanese Breakfast",
+     "minutes": 480
+    },
+    {
+     "name": "Boyish",
+     "artist": "Japanese Breakfast",
+     "minutes": 454
+    },
+    {
+     "name": "Everybody Wants to Love You",
+     "artist": "Japanese Breakfast",
+     "minutes": 438
+    },
+    {
+     "name": "Kokomo, IN",
+     "artist": "Japanese Breakfast",
+     "minutes": 423
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2021-05",
+     "hours": 38.2
+    },
+    {
+     "month": "2021-06",
+     "hours": 35.1
+    },
+    {
+     "month": "2021-07",
+     "hours": 39.1
+    },
+    {
+     "month": "2021-08",
+     "hours": 0.4
+    },
+    {
+     "month": "2021-09",
+     "hours": 35.4
+    }
+   ],
+   "new_artists": 4,
+   "new_minutes_pct": 54,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    632,
+    800,
+    1053,
+    238,
+    523,
+    1041,
+    580,
+    515,
+    155,
+    520,
+    780,
+    512,
+    514,
+    788,
+    245,
+    0
+   ],
+   "obsession": {
+    "track": "Be Sweet",
+    "artist": "Japanese Breakfast",
+    "date": "2021-06-12",
+    "plays": 40
+   },
+   "title": "Be Sweet, Forty Times",
+   "blurb": "148 hours led by Japanese Breakfast; on 12 June you played Be Sweet 40 times in one day. Mitski and Lorde kept the rest of the summer.",
+   "mood": "Sweet",
+   "palette": [
+    "#ffafcc",
+    "#cdb4db",
+    "#a2d2ff",
+    "#ffc8dd"
+   ]
+  },
+  {
+   "id": "2021-10",
+   "start": "2021-10",
+   "end": "2022-01",
+   "hours": 165.3,
+   "skip_pct": 18,
+   "night_pct": 13,
+   "top_artists": [
+    {
+     "name": "Deftones",
+     "minutes": 2649
+    },
+    {
+     "name": "Slowdive",
+     "minutes": 1772
+    },
+    {
+     "name": "My Bloody Valentine",
+     "minutes": 1652
+    },
+    {
+     "name": "Radiohead",
+     "minutes": 949
+    },
+    {
+     "name": "The National",
+     "minutes": 760
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Be Quiet and Drive (Far Away)",
+     "artist": "Deftones",
+     "minutes": 593
+    },
+    {
+     "name": "My Own Summer (Shove It)",
+     "artist": "Deftones",
+     "minutes": 548
+    },
+    {
+     "name": "Sextape",
+     "artist": "Deftones",
+     "minutes": 529
+    },
+    {
+     "name": "Change (In the House of Flies)",
+     "artist": "Deftones",
+     "minutes": 503
+    },
+    {
+     "name": "Digital Bath",
+     "artist": "Deftones",
+     "minutes": 476
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2021-10",
+     "hours": 41.5
+    },
+    {
+     "month": "2021-11",
+     "hours": 45.3
+    },
+    {
+     "month": "2021-12",
+     "hours": 44.7
+    },
+    {
+     "month": "2022-01",
+     "hours": 33.8
+    }
+   ],
+   "new_artists": 4,
+   "new_minutes_pct": 69,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    949,
+    415,
+    0,
+    0,
+    0,
+    813,
+    1158,
+    1146,
+    1158,
+    1172,
+    1837,
+    1273
+   ],
+   "obsession": {
+    "track": "Sextape",
+    "artist": "Deftones",
+    "date": "2021-11-29",
+    "plays": 14
+   },
+   "title": "Shoegaze Season",
+   "blurb": "165 hours of Deftones, Slowdive and My Bloody Valentine from October to January. Be Quiet and Drive was the song, 10pm the hour.",
+   "mood": "Heavy",
+   "palette": [
+    "#370617",
+    "#9d0208",
+    "#6a040f",
+    "#f48c06"
+   ]
+  },
+  {
+   "id": "2022-02",
+   "start": "2022-02",
+   "end": "2022-07",
+   "hours": 229.4,
+   "skip_pct": 17,
+   "night_pct": 0,
+   "top_artists": [
+    {
+     "name": "Daft Punk",
+     "minutes": 3009
+    },
+    {
+     "name": "Caribou",
+     "minutes": 2613
+    },
+    {
+     "name": "Jamie xx",
+     "minutes": 2331
+    },
+    {
+     "name": "Fred again..",
+     "minutes": 1538
+    },
+    {
+     "name": "LCD Soundsystem",
+     "minutes": 1323
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Digital Love",
+     "artist": "Daft Punk",
+     "minutes": 575
+    },
+    {
+     "name": "Harder, Better, Faster, Stronger",
+     "artist": "Daft Punk",
+     "minutes": 558
+    },
+    {
+     "name": "Never Come Back",
+     "artist": "Caribou",
+     "minutes": 557
+    },
+    {
+     "name": "Odessa",
+     "artist": "Caribou",
+     "minutes": 552
+    },
+    {
+     "name": "Sun",
+     "artist": "Caribou",
+     "minutes": 540
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2022-02",
+     "hours": 33.1
+    },
+    {
+     "month": "2022-03",
+     "hours": 43.4
+    },
+    {
+     "month": "2022-04",
+     "hours": 45.7
+    },
+    {
+     "month": "2022-05",
+     "hours": 40.9
+    },
+    {
+     "month": "2022-06",
+     "hours": 30.0
+    },
+    {
+     "month": "2022-07",
+     "hours": 36.3
+    }
+   ],
+   "new_artists": 4,
+   "new_minutes_pct": 69,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1772,
+    2659,
+    3061,
+    2211,
+    625,
+    11,
+    0,
+    1222,
+    879,
+    15,
+    0,
+    0,
+    0,
+    915,
+    394,
+    0,
+    0,
+    0,
+    0
+   ],
+   "obsession": {
+    "track": "I Know There's Gonna Be (Good Times)",
+    "artist": "Jamie xx",
+    "date": "2022-04-15",
+    "plays": 11
+   },
+   "title": "Daft Punk at 7am",
+   "blurb": "229 hours of dance music, Daft Punk first, played mostly at 7 in the morning. 19 February was your biggest day at 3.7 hours, and from 1 March you listened 65 days straight.",
+   "mood": "Electric",
+   "palette": [
+    "#00e5ff",
+    "#2979ff",
+    "#ffe45c",
+    "#ff4fd8"
+   ]
+  },
+  {
+   "id": "2022-08",
+   "start": "2022-08",
+   "end": "2022-12",
+   "hours": 167.9,
+   "skip_pct": 17,
+   "night_pct": 8,
+   "top_artists": [
+    {
+     "name": "Beyonc\u00e9",
+     "minutes": 2367
+    },
+    {
+     "name": "SZA",
+     "minutes": 1913
+    },
+    {
+     "name": "Blood Orange",
+     "minutes": 1614
+    },
+    {
+     "name": "Solange",
+     "minutes": 1265
+    },
+    {
+     "name": "Charli XCX",
+     "minutes": 1157
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Halo",
+     "artist": "Beyonc\u00e9",
+     "minutes": 536
+    },
+    {
+     "name": "ALIEN SUPERSTAR",
+     "artist": "Beyonc\u00e9",
+     "minutes": 470
+    },
+    {
+     "name": "Good Days",
+     "artist": "SZA",
+     "minutes": 464
+    },
+    {
+     "name": "Love On Top",
+     "artist": "Beyonc\u00e9",
+     "minutes": 459
+    },
+    {
+     "name": "Formation",
+     "artist": "Beyonc\u00e9",
+     "minutes": 457
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2022-08",
+     "hours": 40.1
+    },
+    {
+     "month": "2022-09",
+     "hours": 35.1
+    },
+    {
+     "month": "2022-10",
+     "hours": 28.2
+    },
+    {
+     "month": "2022-11",
+     "hours": 30.4
+    },
+    {
+     "month": "2022-12",
+     "hours": 34.1
+    }
+   ],
+   "new_artists": 5,
+   "new_minutes_pct": 83,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    970,
+    399,
+    0,
+    0,
+    0,
+    842,
+    1612,
+    1282,
+    1300,
+    1133,
+    1674,
+    861
+   ],
+   "obsession": {
+    "track": "You're Not Good Enough",
+    "artist": "Blood Orange",
+    "date": "2022-09-29",
+    "plays": 12
+   },
+   "title": "Renaissance",
+   "blurb": "168 hours of Beyonc\u00e9, SZA and Blood Orange, 83% of the minutes going to artists you had never played before. Halo got 9 hours.",
+   "mood": "Glossy",
+   "palette": [
+    "#ff006e",
+    "#8338ec",
+    "#ffbe0b",
+    "#fb5607"
+   ]
+  },
+  {
+   "id": "2023-01",
+   "start": "2023-01",
+   "end": "2023-04",
+   "hours": 137.3,
+   "skip_pct": 18,
+   "night_pct": 0,
+   "top_artists": [
+    {
+     "name": "Miles Davis",
+     "minutes": 1951
+    },
+    {
+     "name": "John Coltrane",
+     "minutes": 1857
+    },
+    {
+     "name": "Nina Simone",
+     "minutes": 1188
+    },
+    {
+     "name": "Brian Eno",
+     "minutes": 1021
+    },
+    {
+     "name": "Bon Iver",
+     "minutes": 605
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "In a Sentimental Mood",
+     "artist": "John Coltrane",
+     "minutes": 448
+    },
+    {
+     "name": "Freddie Freeloader",
+     "artist": "Miles Davis",
+     "minutes": 443
+    },
+    {
+     "name": "Flamenco Sketches",
+     "artist": "Miles Davis",
+     "minutes": 385
+    },
+    {
+     "name": "All Blues",
+     "artist": "Miles Davis",
+     "minutes": 385
+    },
+    {
+     "name": "My Favorite Things",
+     "artist": "John Coltrane",
+     "minutes": 380
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2023-01",
+     "hours": 36.3
+    },
+    {
+     "month": "2023-02",
+     "hours": 36.0
+    },
+    {
+     "month": "2023-03",
+     "hours": 33.1
+    },
+    {
+     "month": "2023-04",
+     "hours": 31.9
+    }
+   ],
+   "new_artists": 1,
+   "new_minutes_pct": 14,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    724,
+    723,
+    865,
+    257,
+    611,
+    966,
+    287,
+    490,
+    234,
+    514,
+    821,
+    254,
+    378,
+    766,
+    324,
+    23
+   ],
+   "obsession": {
+    "track": "All Blues",
+    "artist": "Miles Davis",
+    "date": "2023-03-18",
+    "plays": 11
+   },
+   "title": "Kind of Blue",
+   "blurb": "137 hours of Miles Davis, John Coltrane and Nina Simone with one new artist all winter. In a Sentimental Mood led, and 1pm was the peak hour.",
+   "mood": "Cool",
+   "palette": [
+    "#1b263b",
+    "#415a77",
+    "#778da9",
+    "#e0e1dd"
+   ]
+  },
+  {
+   "id": "2023-05",
+   "start": "2023-05",
+   "end": "2023-10",
+   "hours": 216.6,
+   "skip_pct": 20,
+   "night_pct": 0,
+   "top_artists": [
+    {
+     "name": "Little Simz",
+     "minutes": 2777
+    },
+    {
+     "name": "Kendrick Lamar",
+     "minutes": 2719
+    },
+    {
+     "name": "Tyler, The Creator",
+     "minutes": 1686
+    },
+    {
+     "name": "SZA",
+     "minutes": 1639
+    },
+    {
+     "name": "Mac Miller",
+     "minutes": 1372
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Introvert",
+     "artist": "Little Simz",
+     "minutes": 637
+    },
+    {
+     "name": "Venom",
+     "artist": "Little Simz",
+     "minutes": 571
+    },
+    {
+     "name": "Woman",
+     "artist": "Little Simz",
+     "minutes": 539
+    },
+    {
+     "name": "Selfish",
+     "artist": "Little Simz",
+     "minutes": 534
+    },
+    {
+     "name": "N95",
+     "artist": "Kendrick Lamar",
+     "minutes": 521
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2023-05",
+     "hours": 34.9
+    },
+    {
+     "month": "2023-06",
+     "hours": 41.9
+    },
+    {
+     "month": "2023-07",
+     "hours": 28.8
+    },
+    {
+     "month": "2023-08",
+     "hours": 46.6
+    },
+    {
+     "month": "2023-09",
+     "hours": 36.6
+    },
+    {
+     "month": "2023-10",
+     "hours": 27.9
+    }
+   ],
+   "new_artists": 1,
+   "new_minutes_pct": 21,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    813,
+    1428,
+    1060,
+    296,
+    1073,
+    1396,
+    436,
+    936,
+    427,
+    768,
+    1387,
+    521,
+    975,
+    1140,
+    341,
+    0
+   ],
+   "obsession": {
+    "track": "See You Again",
+    "artist": "Tyler, The Creator",
+    "date": "2023-08-11",
+    "plays": 12
+   },
+   "title": "Introvert",
+   "blurb": "217 hours from May to October, Little Simz and Kendrick Lamar within an hour of each other, Tyler and Mac Miller behind. Introvert got 10 hours, mostly at 9am.",
+   "mood": "Bold",
+   "palette": [
+    "#ffc300",
+    "#ff5400",
+    "#fff0a6",
+    "#2b2d42"
+   ]
+  },
+  {
+   "id": "2023-11",
+   "start": "2023-11",
+   "end": "2024-03",
+   "hours": 178.8,
+   "skip_pct": 17,
+   "night_pct": 9,
+   "top_artists": [
+    {
+     "name": "Radiohead",
+     "minutes": 2564
+    },
+    {
+     "name": "The National",
+     "minutes": 2114
+    },
+    {
+     "name": "Fleet Foxes",
+     "minutes": 1709
+    },
+    {
+     "name": "Sufjan Stevens",
+     "minutes": 1577
+    },
+    {
+     "name": "Talking Heads",
+     "minutes": 895
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Let Down",
+     "artist": "Radiohead",
+     "minutes": 540
+    },
+    {
+     "name": "Fake Empire",
+     "artist": "The National",
+     "minutes": 481
+    },
+    {
+     "name": "No Surprises",
+     "artist": "Radiohead",
+     "minutes": 455
+    },
+    {
+     "name": "I Need My Girl",
+     "artist": "The National",
+     "minutes": 450
+    },
+    {
+     "name": "Idioteque",
+     "artist": "Radiohead",
+     "minutes": 439
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2023-11",
+     "hours": 38.7
+    },
+    {
+     "month": "2023-12",
+     "hours": 34.7
+    },
+    {
+     "month": "2024-01",
+     "hours": 37.6
+    },
+    {
+     "month": "2024-02",
+     "hours": 34.7
+    },
+    {
+     "month": "2024-03",
+     "hours": 33.2
+    }
+   ],
+   "new_artists": 0,
+   "new_minutes_pct": 0,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    982,
+    525,
+    10,
+    0,
+    0,
+    864,
+    1218,
+    1822,
+    1221,
+    1160,
+    1900,
+    1029
+   ],
+   "obsession": {
+    "track": "I Need My Girl",
+    "artist": "The National",
+    "date": "2023-11-28",
+    "plays": 11
+   },
+   "title": "Let Down, Again",
+   "blurb": "179 hours of Radiohead and The National with nothing new at all: every artist was one you'd played before. Let Down was the song and 10pm the hour.",
+   "mood": "Wistful",
+   "palette": [
+    "#22223b",
+    "#4a4e69",
+    "#9a8c98",
+    "#f2e9e4"
+   ]
+  },
+  {
+   "id": "2024-04",
+   "start": "2024-04",
+   "end": "2024-08",
+   "hours": 173.3,
+   "skip_pct": 18,
+   "night_pct": 0,
+   "top_artists": [
+    {
+     "name": "Caroline Polachek",
+     "minutes": 2141
+    },
+    {
+     "name": "Charli XCX",
+     "minutes": 1787
+    },
+    {
+     "name": "Japanese Breakfast",
+     "minutes": 1760
+    },
+    {
+     "name": "Lorde",
+     "minutes": 1374
+    },
+    {
+     "name": "Beyonc\u00e9",
+     "minutes": 1265
+    }
+   ],
+   "top_tracks": [
+    {
+     "name": "Bunny Is a Rider",
+     "artist": "Caroline Polachek",
+     "minutes": 461
+    },
+    {
+     "name": "Pang",
+     "artist": "Caroline Polachek",
+     "minutes": 445
+    },
+    {
+     "name": "Boyish",
+     "artist": "Japanese Breakfast",
+     "minutes": 435
+    },
+    {
+     "name": "Welcome to My Island",
+     "artist": "Caroline Polachek",
+     "minutes": 421
+    },
+    {
+     "name": "Door",
+     "artist": "Caroline Polachek",
+     "minutes": 409
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2024-04",
+     "hours": 35.0
+    },
+    {
+     "month": "2024-05",
+     "hours": 33.6
+    },
+    {
+     "month": "2024-06",
+     "hours": 38.1
+    },
+    {
+     "month": "2024-07",
+     "hours": 27.3
+    },
+    {
+     "month": "2024-08",
+     "hours": 39.4
+    }
+   ],
+   "new_artists": 0,
+   "new_minutes_pct": 0,
+   "clock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    469,
+    870,
+    1067,
+    283,
+    822,
+    1115,
+    486,
+    708,
+    342,
+    784,
+    1132,
+    211,
+    557,
+    1101,
+    436,
+    16
+   ],
+   "obsession": {
+    "track": "Boyish",
+    "artist": "Japanese Breakfast",
+    "date": "2024-05-29",
+    "plays": 12
+   },
+   "title": "Pang",
+   "blurb": "173 hours into the summer of 2024, Caroline Polachek first and Charli XCX right behind, with Japanese Breakfast back from three years earlier. Bunny Is a Rider led, at 6pm.",
+   "mood": "Shiny",
+   "palette": [
+    "#9b5de5",
+    "#f15bb5",
+    "#fee440",
+    "#00f5d4"
+   ]
+  }
+ ],
+ "records": {
+  "longest_streak": {
+   "days": 65,
+   "start": "2022-03-01",
+   "end": "2022-05-04"
+  },
+  "biggest_day": {
+   "date": "2022-02-19",
+   "hours": 3.7,
+   "top_artist": "Daft Punk"
+  },
+  "most_repeated": {
+   "track": "Be Sweet",
+   "artist": "Japanese Breakfast",
+   "date": "2021-06-12",
+   "plays": 40
+  },
+  "week": [
+   [
+    260,
+    225,
+    223,
+    163,
+    165,
+    272,
+    412,
+    374,
+    740,
+    874,
+    872,
+    191,
+    1546,
+    1237,
+    332,
+    548,
+    256,
+    1255,
+    2049,
+    1446,
+    1568,
+    1992,
+    1802,
+    1036
+   ],
+   [
+    308,
+    342,
+    307,
+    278,
+    90,
+    191,
+    425,
+    503,
+    659,
+    786,
+    813,
+    150,
+    1499,
+    1509,
+    245,
+    491,
+    288,
+    1125,
+    2122,
+    1423,
+    1159,
+    1853,
+    1992,
+    1403
+   ],
+   [
+    369,
+    320,
+    301,
+    223,
+    15,
+    236,
+    285,
+    420,
+    1120,
+    1030,
+    813,
+    303,
+    1323,
+    1362,
+    153,
+    520,
+    259,
+    1083,
+    2131,
+    1312,
+    1433,
+    1938,
+    1648,
+    959
+   ],
+   [
+    236,
+    402,
+    338,
+    201,
+    33,
+    135,
+    373,
+    376,
+    1055,
+    1077,
+    951,
+    282,
+    1564,
+    1299,
+    278,
+    632,
+    204,
+    1409,
+    1961,
+    1373,
+    1665,
+    1990,
+    1716,
+    1164
+   ],
+   [
+    265,
+    308,
+    239,
+    159,
+    42,
+    341,
+    297,
+    313,
+    840,
+    827,
+    675,
+    293,
+    1533,
+    1351,
+    484,
+    501,
+    170,
+    1024,
+    1848,
+    1311,
+    1339,
+    1851,
+    1632,
+    910
+   ],
+   [
+    261,
+    285,
+    119,
+    289,
+    107,
+    398,
+    495,
+    490,
+    992,
+    834,
+    805,
+    321,
+    1435,
+    1328,
+    430,
+    598,
+    329,
+    1203,
+    1748,
+    1486,
+    1546,
+    1824,
+    2085,
+    1221
+   ],
+   [
+    408,
+    317,
+    179,
+    303,
+    40,
+    207,
+    372,
+    585,
+    776,
+    667,
+    648,
+    150,
+    1378,
+    1301,
+    393,
+    442,
+    275,
+    986,
+    1917,
+    1447,
+    1543,
+    1937,
+    1753,
+    892
+   ]
+  ]
+ },
+ "arcs": {
+  "redemptions": [
+   {
+    "track": "Nights",
+    "artist": "Frank Ocean",
+    "early_skip_pct": 91,
+    "late_skip_pct": 12,
+    "plays": 197,
+    "points": [
+     {
+      "month": "2019-08",
+      "skip_pct": 93,
+      "plays": 28
+     },
+     {
+      "month": "2019-09",
+      "skip_pct": 82,
+      "plays": 17
+     },
+     {
+      "month": "2019-10",
+      "skip_pct": 91,
+      "plays": 11
+     },
+     {
+      "month": "2019-11",
+      "skip_pct": 88,
+      "plays": 17
+     },
+     {
+      "month": "2019-12",
+      "skip_pct": 95,
+      "plays": 21
+     },
+     {
+      "month": "2020-01",
+      "skip_pct": 88,
+      "plays": 8
+     },
+     {
+      "month": "2020-02",
+      "skip_pct": 19,
+      "plays": 16
+     },
+     {
+      "month": "2020-03",
+      "skip_pct": 10,
+      "plays": 10
+     },
+     {
+      "month": "2020-04",
+      "skip_pct": 7,
+      "plays": 14
+     },
+     {
+      "month": "2020-05",
+      "skip_pct": 18,
+      "plays": 22
+     },
+     {
+      "month": "2020-07",
+      "skip_pct": 11,
+      "plays": 9
+     },
+     {
+      "month": "2020-08",
+      "skip_pct": 0,
+      "plays": 3
+     },
+     {
+      "month": "2023-06",
+      "skip_pct": 0,
+      "plays": 4
+     },
+     {
+      "month": "2024-06",
+      "skip_pct": 0,
+      "plays": 3
+     }
+    ]
+   },
+   {
+    "track": "Idioteque",
+    "artist": "Radiohead",
+    "early_skip_pct": 77,
+    "late_skip_pct": 2,
+    "plays": 310,
+    "points": [
+     {
+      "month": "2019-03",
+      "skip_pct": 100,
+      "plays": 18
+     },
+     {
+      "month": "2019-04",
+      "skip_pct": 75,
+      "plays": 12
+     },
+     {
+      "month": "2019-05",
+      "skip_pct": 86,
+      "plays": 7
+     },
+     {
+      "month": "2019-06",
+      "skip_pct": 91,
+      "plays": 11
+     },
+     {
+      "month": "2019-07",
+      "skip_pct": 64,
+      "plays": 36
+     },
+     {
+      "month": "2019-10",
+      "skip_pct": 100,
+      "plays": 3
+     },
+     {
+      "month": "2019-11",
+      "skip_pct": 100,
+      "plays": 5
+     },
+     {
+      "month": "2019-12",
+      "skip_pct": 82,
+      "plays": 11
+     },
+     {
+      "month": "2020-04",
+      "skip_pct": 80,
+      "plays": 5
+     },
+     {
+      "month": "2020-05",
+      "skip_pct": 75,
+      "plays": 4
+     },
+     {
+      "month": "2020-06",
+      "skip_pct": 100,
+      "plays": 3
+     },
+     {
+      "month": "2021-05",
+      "skip_pct": 100,
+      "plays": 3
+     },
+     {
+      "month": "2021-10",
+      "skip_pct": 92,
+      "plays": 12
+     },
+     {
+      "month": "2021-11",
+      "skip_pct": 70,
+      "plays": 10
+     },
+     {
+      "month": "2021-12",
+      "skip_pct": 0,
+      "plays": 25
+     },
+     {
+      "month": "2022-01",
+      "skip_pct": 0,
+      "plays": 8
+     },
+     {
+      "month": "2023-06",
+      "skip_pct": 0,
+      "plays": 3
+     },
+     {
+      "month": "2023-11",
+      "skip_pct": 0,
+      "plays": 16
+     },
+     {
+      "month": "2023-12",
+      "skip_pct": 0,
+      "plays": 17
+     },
+     {
+      "month": "2024-01",
+      "skip_pct": 0,
+      "plays": 23
+     },
+     {
+      "month": "2024-02",
+      "skip_pct": 3,
+      "plays": 32
+     },
+     {
+      "month": "2024-03",
+      "skip_pct": 6,
+      "plays": 34
+     }
+    ]
+   },
+   {
+    "track": "I Know the End",
+    "artist": "Phoebe Bridgers",
+    "early_skip_pct": 83,
+    "late_skip_pct": 11,
+    "plays": 207,
+    "points": [
+     {
+      "month": "2020-06",
+      "skip_pct": 83,
+      "plays": 29
+     },
+     {
+      "month": "2020-07",
+      "skip_pct": 71,
+      "plays": 7
+     },
+     {
+      "month": "2020-08",
+      "skip_pct": 81,
+      "plays": 42
+     },
+     {
+      "month": "2020-09",
+      "skip_pct": 100,
+      "plays": 14
+     },
+     {
+      "month": "2020-10",
+      "skip_pct": 77,
+      "plays": 13
+     },
+     {
+      "month": "2020-11",
+      "skip_pct": 73,
+      "plays": 11
+     },
+     {
+      "month": "2020-12",
+      "skip_pct": 0,
+      "plays": 4
+     },
+     {
+      "month": "2021-01",
+      "skip_pct": 0,
+      "plays": 15
+     },
+     {
+      "month": "2021-02",
+      "skip_pct": 0,
+      "plays": 10
+     },
+     {
+      "month": "2021-03",
+      "skip_pct": 0,
+      "plays": 7
+     },
+     {
+      "month": "2021-04",
+      "skip_pct": 11,
+      "plays": 9
+     },
+     {
+      "month": "2021-05",
+      "skip_pct": 0,
+      "plays": 4
+     },
+     {
+      "month": "2022-03",
+      "skip_pct": 0,
+      "plays": 3
+     },
+     {
+      "month": "2022-08",
+      "skip_pct": 0,
+      "plays": 4
+     },
+     {
+      "month": "2023-07",
+      "skip_pct": 0,
+      "plays": 4
+     },
+     {
+      "month": "2023-11",
+      "skip_pct": 0,
+      "plays": 11
+     },
+     {
+      "month": "2023-12",
+      "skip_pct": 0,
+      "plays": 8
+     },
+     {
+      "month": "2024-01",
+      "skip_pct": 0,
+      "plays": 6
+     }
+    ]
+   }
+  ],
+  "burnouts": [
+   {
+    "track": "The Less I Know the Better",
+    "artist": "Tame Impala",
+    "early_skip_pct": 4,
+    "late_skip_pct": 79,
+    "plays": 265,
+    "points": [
+     {
+      "month": "2019-03",
+      "skip_pct": 0,
+      "plays": 32
+     },
+     {
+      "month": "2019-04",
+      "skip_pct": 0,
+      "plays": 28
+     },
+     {
+      "month": "2019-05",
+      "skip_pct": 0,
+      "plays": 16
+     },
+     {
+      "month": "2019-06",
+      "skip_pct": 0,
+      "plays": 28
+     },
+     {
+      "month": "2019-07",
+      "skip_pct": 0,
+      "plays": 23
+     },
+     {
+      "month": "2019-08",
+      "skip_pct": 81,
+      "plays": 16
+     },
+     {
+      "month": "2019-09",
+      "skip_pct": 63,
+      "plays": 16
+     },
+     {
+      "month": "2019-10",
+      "skip_pct": 81,
+      "plays": 26
+     },
+     {
+      "month": "2019-11",
+      "skip_pct": 81,
+      "plays": 16
+     },
+     {
+      "month": "2021-07",
+      "skip_pct": 75,
+      "plays": 4
+     },
+     {
+      "month": "2022-12",
+      "skip_pct": 100,
+      "plays": 3
+     },
+     {
+      "month": "2024-04",
+      "skip_pct": 70,
+      "plays": 10
+     },
+     {
+      "month": "2024-05",
+      "skip_pct": 75,
+      "plays": 4
+     },
+     {
+      "month": "2024-06",
+      "skip_pct": 85,
+      "plays": 13
+     },
+     {
+      "month": "2024-08",
+      "skip_pct": 75,
+      "plays": 8
+     }
+    ]
+   },
+   {
+    "track": "Good Days",
+    "artist": "SZA",
+    "early_skip_pct": 3,
+    "late_skip_pct": 76,
+    "plays": 257,
+    "points": [
+     {
+      "month": "2022-08",
+      "skip_pct": 3,
+      "plays": 30
+     },
+     {
+      "month": "2022-09",
+      "skip_pct": 0,
+      "plays": 19
+     },
+     {
+      "month": "2022-10",
+      "skip_pct": 7,
+      "plays": 30
+     },
+     {
+      "month": "2022-11",
+      "skip_pct": 0,
+      "plays": 28
+     },
+     {
+      "month": "2022-12",
+      "skip_pct": 4,
+      "plays": 26
+     },
+     {
+      "month": "2023-01",
+      "skip_pct": 67,
+      "plays": 3
+     },
+     {
+      "month": "2023-05",
+      "skip_pct": 76,
+      "plays": 25
+     },
+     {
+      "month": "2023-06",
+      "skip_pct": 87,
+      "plays": 15
+     },
+     {
+      "month": "2023-07",
+      "skip_pct": 100,
+      "plays": 9
+     },
+     {
+      "month": "2023-08",
+      "skip_pct": 84,
+      "plays": 25
+     },
+     {
+      "month": "2023-09",
+      "skip_pct": 76,
+      "plays": 17
+     },
+     {
+      "month": "2023-10",
+      "skip_pct": 71,
+      "plays": 24
+     }
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "question": "When did I first hear Nujabes?",
+   "answer": "**1 September 2020**, at 5:03pm: *Feather*. It took over immediately: 1,127 of your 1,220 Nujabes plays came in the eight months that followed, 61 hours in all, which made Nujabes the top artist of that whole chapter. A smaller revival came in early 2023.",
+   "mood": "Mellow",
+   "palette": [
+    "#7f5539",
+    "#ddb892",
+    "#e6ccb2",
+    "#b08968"
+   ]
+  },
+  {
+   "question": "What was I listening to on 2022-02-19?",
+   "answer": "**February 19, 2022** is your biggest listening day on record: **3.7 hours** and 67 plays, from 6:29am to 12:48pm. **Daft Punk** led with 71 minutes, then LCD Soundsystem (53), Fred again.. (52) and Jamie xx (44).",
+   "mood": "Wide awake",
+   "palette": [
+    "#ffe45c",
+    "#ff9e00",
+    "#00d4ff",
+    "#f15bb5"
+   ]
+  },
+  {
+   "question": "Which song did I learn to love?",
+   "answer": "**Nights** by Frank Ocean. You skipped it **91%** of the time through the first half of its 197 plays, then in February 2020 something clicked and the skip rate fell to **12%**. *Idioteque* (77% to 2%) and *I Know the End* (83% to 11%) went the same way.",
+   "mood": "Slow burn",
+   "palette": [
+    "#ff7b54",
+    "#ffb26b",
+    "#ffd56f",
+    "#939b62"
+   ]
+  },
+  {
+   "question": "Which song did I wear out?",
+   "answer": "**The Less I Know the Better** by Tame Impala. From March to July 2019 you played it 127 times and never skipped it once; from August on you skipped it about **79%** of the time. *Good Days* by SZA burned out too, going from 3% skipped in late 2022 to 76% in 2023.",
+   "mood": "Worn out",
+   "palette": [
+    "#c1121f",
+    "#f4845f",
+    "#7f5539",
+    "#e6ccb2"
+   ]
+  },
+  {
+   "question": "When was my night-owl era?",
+   "answer": "**December 2019 to May 2020.** In those six months **88%** of your plays happened between 11pm and 5am, peaking around 1am, across 193.5 hours. The soundtrack was Aphex Twin, Burial and Boards of Canada, at roughly 37 hours each.",
+   "mood": "Sleepless",
+   "palette": [
+    "#6a4cff",
+    "#9b5de5",
+    "#3f37c9",
+    "#c8b6ff"
+   ]
+  },
+  {
+   "question": "What was I playing during my 65-day streak?",
+   "answer": "Your longest streak ran **65 days, from March 1 to May 4, 2022**: 94.8 hours and 1,876 plays without a day off. **Jamie xx** led with 1,118 minutes, ahead of Daft Punk (1,002) and Caribou (863), and *Loud Places* was the most-played track at 81 plays.",
+   "mood": "Locked in",
+   "palette": [
+    "#00f5a0",
+    "#00d9f5",
+    "#b8f400",
+    "#f9f871"
+   ]
+  }
+ ]
+}

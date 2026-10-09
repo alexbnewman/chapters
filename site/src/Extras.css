@@ -1,0 +1,26 @@
+.chapter-text > .chapter-extras {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-top: 40px;
+}
+.extras-side { display: flex; flex-direction: column; gap: 32px; min-width: 0; }
+.extras-side p { margin: 0; }
+
+/* space-between lets the 6px gaps give up a hair when the column is a few px short of 314. */
+.curiosity-dots { display: flex; justify-content: space-between; max-width: 314px; margin: 12px 0; }
+.curiosity-dots i { width: 10px; height: 10px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, 0.25); }
+.curiosity-dots .on { background: var(--c3); border: 0; }
+.curiosity-line { font-size: 16px; line-height: 1.4; margin-bottom: 8px !important; }
+.curiosity-line .display { font-size: 28px; }
+
+.obsession-track { font: italic 300 28px/1.15 var(--display); color: var(--ink); margin-top: 10px !important; }
+.obsession-artist { font-size: 16px; }
+.tally { display: flex; flex-wrap: wrap; gap: 6px 3px; margin: 12px 0; }
+.tally i { width: 2px; height: 18px; background: var(--c3); transform-origin: bottom; }
+.tally i:nth-child(5n) { margin-right: 6px; }
+
+@media (max-width: 760px) {
+  .chapter-text > .chapter-extras { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,279 @@
+/* Registered so the palette vars can animate; unregistered custom properties snap instead of transitioning. */
+@property --c0 { syntax: '<color>'; inherits: true; initial-value: #0a0a0c; }
+@property --c1 { syntax: '<color>'; inherits: true; initial-value: #0a0a0c; }
+@property --c2 { syntax: '<color>'; inherits: true; initial-value: #0a0a0c; }
+@property --c3 { syntax: '<color>'; inherits: true; initial-value: #0a0a0c; }
+@property --title { syntax: '<color>'; inherits: true; initial-value: #f2eee6; }
+
+:root {
+  --bg: #0a0a0c;
+  --ink: rgba(242, 238, 230, 0.9);
+  --ink-2: rgba(242, 238, 230, 0.75);
+  --display: 'Fraunces', Georgia, serif;
+  --body: 'Inter', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+  color-scheme: dark;
+  transition: --c0 800ms, --c1 800ms, --c2 800ms, --c3 800ms, --title 800ms;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Only the root gets a background: a body background would paint over the z-index:-1 shader. */
+/* The padding stops a button reached with Tab from landing underneath the Ask pill. */
+html { background: var(--bg); scroll-padding-bottom: 140px; }
+
+html, body {
+  margin: 0;
+  color: var(--ink);
+  overflow-x: hidden;
+}
+
+body {
+  font: 400 18px/1.55 var(--body);
+  min-height: 100svh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Own stacking context, so the z-index:-1 shader sits above the page background instead of under it. */
+#root { isolation: isolate; }
+
+canvas.bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  /* Dimmed so text sitting straight on a bright blob stays readable. */
+  opacity: 0.5;
+}
+
+.mono {
+  font: 400 12px/1.4 var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-2);
+}
+
+.display {
+  font-family: var(--display);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.mood {
+  font: italic 300 2.4rem/1 var(--display);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.swatches { display: inline-flex; gap: 6px; }
+.swatches i { width: 10px; height: 10px; border-radius: 50%; display: block; }
+
+.card {
+  background: rgba(12, 12, 14, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  padding: 24px;
+}
+@supports (backdrop-filter: blur(20px)) {
+  .card { background: rgba(12, 12, 14, 0.55); backdrop-filter: blur(20px); }
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* Bottom room equals the ask pill, so the last chapter's rings are never hidden under it. */
+  padding: 0 16px 140px;
+}
+
+a, button { color: var(--c3); }
+:focus-visible { outline: 2px solid var(--c3); outline-offset: 3px; }
+
+.num { display: inline-block; position: relative; font-variant-numeric: tabular-nums; }
+.num-hold { visibility: hidden; }
+.num-live { position: absolute; left: 0; top: 0; }
+.dim { color: var(--ink-2); }
+
+/* Hero */
+.hero {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Bottom room equals the ask pill, or it covers "Scroll to read it" on a phone. */
+  padding: 24px 0 140px;
+}
+/* Sized so all five stats share one row on a desktop screen. */
+.hero-stats { display: flex; gap: 24px clamp(24px, 3vw, 44px); flex-wrap: wrap; margin-bottom: 4vh; }
+.hero-num { font-size: clamp(3.2rem, 5vw, 4.4rem); }
+.hero-title { font-size: clamp(4rem, 14vw, 11rem); margin: 0; color: var(--title); }
+.hero-scroll { margin-top: 24px; }
+
+.pause {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 3;
+  background: rgba(12, 12, 14, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: var(--ink-2);
+}
+
+/* Chapter sections */
+.chapter {
+  min-height: 100svh;
+  padding: 10vh 0 6vh;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+.chapter-text { grid-column: 1 / 8; }
+.chapter-data { grid-column: 9 / -1; }
+.chapter-text > * { margin: 0 0 20px; }
+.chapter-title { font-size: clamp(2.6rem, 8vw, 6.5rem); color: var(--title); margin-bottom: 28px; }
+.blurb { max-width: 60ch; }
+
+.rows { list-style: none; margin: 8px 0 28px; padding: 0; }
+.rows li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 12px;
+  padding: 8px 0;
+  font-size: 16px;
+}
+.rows .row-name { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rows .dim { font-weight: 400; margin-left: 6px; }
+.bar {
+  grid-column: 1 / -1;
+  display: block;
+  height: 2px;
+  background: var(--c3);
+  transform-origin: left;
+}
+.tracks .bar { grid-column: 1; }
+
+.months { width: 100%; height: 80px; display: block; margin-top: 8px; }
+.month-labels { display: grid; text-align: center; margin-top: 6px; }
+
+/* Stats row */
+.stats {
+  display: flex;
+  align-items: end;
+  gap: clamp(24px, 5vw, 64px);
+  flex-wrap: wrap;
+  margin-top: 8vh;
+}
+.stat-hours { font-size: clamp(3.2rem, 7vw, 6rem); }
+.ring { --size: 96px; position: relative; width: var(--size); text-align: center; }
+.ring svg { width: var(--size); height: var(--size); transform: rotate(-90deg); display: block; }
+.ring-num {
+  position: absolute;
+  top: 0; left: 0;
+  width: var(--size); height: var(--size);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.7rem;
+}
+.ring .pct { font: 12px var(--mono); color: var(--ink-2); margin-left: 2px; }
+.ring .mono { margin: 8px 0 0; white-space: nowrap; }
+
+/* Ask panel */
+.ask {
+  position: fixed;
+  /* Centered with auto margins, not a transform: motion's layout animation owns transform. */
+  left: 16px;
+  right: 16px;
+  margin: 0 auto;
+  bottom: 24px;
+  width: min(640px, calc(100% - 32px));
+  z-index: 4;
+  border-radius: 28px;
+  border: 1px solid color-mix(in srgb, var(--c3) 30%, transparent);
+  background: rgba(12, 12, 14, 0.88);
+  overflow: hidden;
+}
+@supports (backdrop-filter: blur(20px)) {
+  .ask { background: rgba(12, 12, 14, 0.55); backdrop-filter: blur(20px); }
+}
+.ask.loading { animation: pulse 1.2s ease-in-out infinite; }
+@keyframes pulse {
+  50% { border-color: color-mix(in srgb, var(--c3) 70%, transparent); }
+}
+.ask.open { width: min(72ch, calc(100% - 32px)); border-radius: 20px; }
+.ask-form { display: flex; align-items: center; gap: 8px; padding: 8px 8px 8px 20px; }
+.ask-form input {
+  flex: 1;
+  min-width: 0;
+  background: none;
+  border: 0;
+  color: var(--ink);
+  font: 400 16px/1.4 var(--body);
+  outline: none;
+}
+.ask-form input::placeholder { font-style: italic; color: var(--ink-2); }
+.ask-form button {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--c3);
+  color: #0a0a0c;
+  font-size: 20px;
+  cursor: pointer;
+  flex: none;
+  display: grid; place-items: center;
+}
+.dots { display: flex; gap: 4px; }
+.dots i { width: 6px; height: 6px; border-radius: 50%; background: #0a0a0c; animation: blink 1.2s infinite; }
+.dots i:nth-child(2) { animation-delay: 0.2s; }
+.dots i:nth-child(3) { animation-delay: 0.4s; }
+@keyframes blink { 50% { opacity: 0.2; } }
+.ask-error { margin: 0; padding: 0 20px 12px; color: #ff8a8a; text-transform: none; letter-spacing: 0; }
+
+.answer { max-height: 70vh; overflow-y: auto; padding: 28px 24px 8px; }
+.answer .mood { margin: 0 0 16px; color: var(--title); }
+.answer p, .answer ul, .answer ol { margin: 0 0 14px; }
+.answer strong { color: #f2eee6; font-weight: 500; }
+.close {
+  position: absolute;
+  top: 12px; right: 14px;
+  background: none;
+  border: 0;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--ink-2);
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+  main { padding-bottom: 120px; }
+  .hero { padding-top: 72px; }
+  .chapter-grid { grid-template-columns: 1fr; }
+  .chapter-text, .chapter-data { grid-column: 1; }
+  .chapter-title { font-size: 2.6rem; }
+  .hero-num { font-size: 3.2rem; }
+  .stats { gap: 16px; justify-content: space-between; }
+  .stats > :first-child { width: 100%; }
+  .ring { --size: 84px; }
+  .ask { width: calc(100% - 32px); bottom: 0; padding-bottom: env(safe-area-inset-bottom); margin-bottom: 16px; }
+  .ask.open {
+    width: 100%;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: 0;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .ask.open .answer { max-height: none; flex: 1; }
+}

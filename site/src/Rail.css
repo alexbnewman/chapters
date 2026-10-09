@@ -1,0 +1,53 @@
+.rail {
+  position: fixed;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+.rail button {
+  position: relative;
+  width: 24px; height: 24px;
+  display: grid; place-items: center;
+  background: none;
+  border: 0;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+}
+.rail i {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  opacity: 0.6;
+  transition: transform 300ms, opacity 300ms;
+}
+.rail [aria-current] i { transform: scale(1.75); opacity: 1; }
+
+.rail-label {
+  position: absolute;
+  right: 32px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(12, 12, 14, 0.88);
+  font: 400 14px/1.4 var(--body);
+  color: var(--ink);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateX(6px);
+  transition: opacity 200ms, transform 200ms;
+}
+@supports (backdrop-filter: blur(20px)) {
+  .rail-label { background: rgba(12, 12, 14, 0.55); backdrop-filter: blur(20px); }
+}
+.rail button:hover .rail-label, .rail button:focus-visible .rail-label { opacity: 1; transform: none; }
+.rail.still .rail-label { transform: none; }
+@media (max-width: 760px) {
+  .rail { display: none; }
+}
