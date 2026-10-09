@@ -9,6 +9,7 @@ import { Footer } from './Footer'
 import { Hero } from './Hero'
 import { How } from './How'
 import { Loading } from './Loading'
+import { analyse, readExport } from './own'
 import { Postcards } from './Postcards'
 import { Records } from './Records'
 import { Rail } from './Rail'
@@ -32,7 +33,32 @@ export default function App() {
   // An answer's palette overrides the chapters' until the reader scrolls a fifth of a screen away.
   const [override, setOverride] = useState<Question & { y: number }>()
   const [cards, setCards] = useState<Question[]>(saved)
+  // '' idle, 'reading' while a dropped export is parsed, otherwise the error to show.
+  const [own, setOwn] = useState('')
   const { still } = useTheme()
+
+  const load = useCallback(async (files: File[]) => {
+    setOwn('reading')
+    try {
+      setData(analyse(await readExport(files)))
+      setOwn('')
+      setAnswer(undefined)
+      scrollTo(0, 0)
+    } catch (err) {
+      setOwn((err as Error).message)
+    }
+  }, [])
+
+  useEffect(() => {
+    const over = (e: DragEvent) => e.preventDefault()
+    const drop = (e: DragEvent) => {
+      e.preventDefault()
+      if (e.dataTransfer?.files.length) load([...e.dataTransfer.files])
+    }
+    addEventListener('dragover', over)
+    addEventListener('drop', drop)
+    return () => { removeEventListener('dragover', over); removeEventListener('drop', drop) }
+  }, [load])
 
   useEffect(() => {
     fetch('./chapters.json').then((r) => r.json()).then(setData, () => setFailed(true))
@@ -79,7 +105,7 @@ export default function App() {
       {data ? (
         <>
           <main>
-            <Hero overview={data.overview} onActive={onChapter} />
+            <Hero overview={data.overview} onActive={onChapter} onFiles={load} status={own} />
             {data.chapters.map((c, i) => (
               <Chapter key={c.id} chapter={c} index={i} onActive={onChapter} />
             ))}
@@ -93,9 +119,9 @@ export default function App() {
             <Footer tz={data.overview.tz} />
           </main>
           <Rail chapters={data.chapters} active={Math.min(at, data.chapters.length - 1)} />
-          <AskPanel questions={data.questions} answer={answer} onAnswer={show} onClose={() => setAnswer(undefined)}
+          {data.questions.length > 0 && <AskPanel questions={data.questions} answer={answer} onAnswer={show} onClose={() => setAnswer(undefined)}
             pinned={cards.some((c) => c.question === answer?.question && c.answer === answer.answer)}
-            onPin={() => answer && setCards([...cards, answer])} />
+            onPin={() => answer && setCards([...cards, answer])} />}
         </>
       ) : <Loading failed={failed} />}
     </MotionConfig>

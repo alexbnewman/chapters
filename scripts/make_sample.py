@@ -164,6 +164,6 @@ for months, hours, names in ERAS:
     seen += [a for a in era if a not in seen]
 
 out = Path(__file__).resolve().parents[1] / "data" / "sample" / "Streaming_History_Audio_sample.json"
-out.parent.mkdir(exist_ok=True)
+out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(json.dumps(rows))
 print(f"Wrote {len(rows)} rows to {out}")

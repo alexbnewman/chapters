@@ -82,7 +82,8 @@ def ingest() -> int:
         SELECT * EXCLUDE (same_track_before) FROM every
         -- A stuck client can report one play hundreds of times a minute. A song logged again
         -- before its last report could have finished is that same play, not a new one.
-        WHERE same_track_before IS NULL OR epoch(ts - same_track_before) >= ms_played / 1000.0 - 5
+        -- The 65 seconds of slack keep the plain export's minute-only timestamps from tripping it.
+        WHERE same_track_before IS NULL OR epoch(ts - same_track_before) >= ms_played / 1000.0 - 65
         ORDER BY ts
         """,
         {**params, "tz": TZ},
